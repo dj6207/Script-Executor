@@ -1,0 +1,18 @@
+{
+    "commands": [
+        {
+            "command": "",
+            "input": false,
+            "delay": 0,
+            "pause": false,
+            "scroll": 0,
+            "search": 0,
+            "find": [],
+            "keys": [],
+            "screenshot": false,
+            "clicks": 0,
+            "fix": [],
+            "error": null
+        }
+    ]
+}
