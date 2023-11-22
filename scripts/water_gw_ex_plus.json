@@ -1,0 +1,160 @@
+{
+    "commands": [
+        {
+            "command": "Short cut to EX+",
+            "input": false,
+            "delay": 1,
+            "pause": false,
+            "scroll": 0,
+            "search": 0,
+            "find": ["ex_plus.PNG"],
+            "keys": [],
+            "screenshot": false,
+            "clicks": 1,
+            "fix": [],
+            "error": "Did webpage load???"
+        },
+        {
+            "command": "Summon select",
+            "input": false,
+            "delay": 0,
+            "pause": false,
+            "scroll": 0,
+            "search": 5,
+            "find": ["varuna.PNG"],
+            "keys": [],
+            "screenshot": false,
+            "clicks": 1,
+            "fix": [
+                {
+                    "command": "Scroll down",
+                    "input": false,
+                    "delay": 0,
+                    "pause": false,
+                    "scroll": -50,
+                    "search": 0,
+                    "find": [],
+                    "keys": [],
+                    "screenshot": false,
+                    "clicks": 0,
+                    "fix": [],
+                    "error": null
+                },
+                {
+                    "command": "Summon select",
+                    "input": false,
+                    "delay": 0,
+                    "pause": false,
+                    "scroll": 0,
+                    "search": 5,
+                    "find": ["varuna.PNG"],
+                    "keys": [],
+                    "screenshot": false,
+                    "clicks": 1,
+                    "fix": [],
+                    "error": null
+                }
+            ],
+            "error": null
+        },
+        {
+            "command": "Ok",
+            "input": false,
+            "delay": 0,
+            "pause": false,
+            "scroll": 0,
+            "search": 10,
+            "find": ["ok.PNG"],
+            "keys": [],
+            "screenshot": false,
+            "clicks": 1,
+            "fix": [],
+            "error": null
+        },
+        {
+            "command": "Quick summon",
+            "input": false,
+            "delay": 0,
+            "pause": false,
+            "scroll": 0,
+            "search": 10,
+            "find": ["quick_summon.PNG"],
+            "keys": [],
+            "screenshot": false,
+            "clicks": 1,
+            "fix": [],
+            "error": null
+        },
+        {
+            "command": "Attack",
+            "input": false,
+            "delay": 0,
+            "pause": false,
+            "scroll": 0,
+            "search": 10,
+            "find": ["attack_button.PNG"],
+            "keys": [],
+            "screenshot": false,
+            "clicks": 1,
+            "fix": [],
+            "error": null
+        },
+        {
+            "command": "Refresh",
+            "input": false,
+            "delay": 2,
+            "pause": false,
+            "scroll": 0,
+            "search": 0,
+            "find": [],
+            "keys": ["f5"],
+            "screenshot": false,
+            "clicks": 1,
+            "fix": [],
+            "error": null
+        },
+        {
+            "command": "Result Screen",
+            "input": false,
+            "delay": 0,
+            "pause": false,
+            "scroll": 0,
+            "search": 10,
+            "find": ["result_screen.PNG"],
+            "keys": [],
+            "screenshot": false,
+            "clicks": 0,
+            "fix": [
+                {
+                    "command": "Refresh",
+                    "input": false,
+                    "delay": 0,
+                    "pause": false,
+                    "scroll": 0,
+                    "search": 0,
+                    "find": [],
+                    "keys": ["f5"],
+                    "screenshot": false,
+                    "clicks": 1,
+                    "fix": [],
+                    "error": null
+                },
+                {
+                    "command": "Result Screen",
+                    "input": false,
+                    "delay": 0,
+                    "pause": false,
+                    "scroll": 0,
+                    "search": 10,
+                    "find": ["result_screen.PNG"],
+                    "keys": [],
+                    "screenshot": false,
+                    "clicks": 0,
+                    "fix": [],
+                    "error": null
+                }
+            ],
+            "error": null
+        }
+    ]
+}
